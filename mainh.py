@@ -97,9 +97,6 @@ while True:
                     cv2.imwrite(f"license_plates/{time.time()}_plate.jpg", plate_region)
 
 
-    print("rider_list:",rider_list)
-    print("helmet_list:",helmet_list)
-    print("number_list:",number_list)
 
     cv2.imshow("RGB", frame)
     if cv2.waitKey(1)&0xFF==27:
